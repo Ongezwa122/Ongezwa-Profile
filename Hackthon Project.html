@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>👩🏽‍💻Ongezwa Personal-Profile</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e6f2ff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #007acc;
+      color: #ffffff;
+      padding: 32px;
+      text-align: center;
+      list-style: none;
+      display: block;
+    }
+  
+    header .btn {
+      display: inline-block;
+      margin-top: 16px;
+      padding: 15px 18px;
+      background-color: #ffffff;
+      color: #007acc;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 35px auto;
+      padding: 16px 32px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    section:hover {
+      cursor: pointer;
+    }
+    section .About {
+      margin: 0 auto;
+    }
+
+    h2 {
+      color: #005b99;
+      border-bottom: 2px solid #d1e9ff;
+      padding-bottom: 15px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px;
+      background-color: #007acc;
+      color: #ffffff;
+      margin-top: 32px;
+      border-radius: 5px;
+    }
+    
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+    }
+
+    .contact label {
+      margin-top: 16px;
+      font-weight: bold;
+    }
+
+    .contact input,
+    .contact select,
+    .contact textarea {
+      padding: 8px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .contact textarea {
+      resize: vertical;
+    }
+
+    .contact button {
+      margin-top: 18px;
+      padding: 10px;
+      background-color: #007acc;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .contact button:hover {
+      background-color: #005b99;
+      cursor: pointer;
+    }
+    .cv .btn {
+    display: block;
+    max-width: 115px;
+    padding: 10px 18px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 200ms ease-in-out;
+}
+
+.cv .btn:hover {
+    background-color: #005b99;
+    cursor: crosshair;
+}
+
+  </style>
+  <body>
+    <header>
+      <h1>Ongezwa Ngotana</h1>
+    </header>
+
+    <section class="About">
+      <h2>About</h2>
+      <p>
+        I am Ongezwa Ngotana, an economist passionate about data-driven policy-making for sustainable growth. I hold a Master of Commerce in Economics and have experience in research, public finance, and economic development. With roles at the Financial and Fiscal Commission and KwaZulu-Natal EDTEA, I specialize in policy analysis and data analytics using R, Python, and Power BI. My drive is to contribute to impactful economic transformation.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2> 🤹🏽‍♀️Skills</h2>
+      <ul>
+        <li>Economic Research & Data Analysis</li>
+        <li>Policy Development & Strategic Planning</li>
+        <li>Python, R, SQL, Stata, Power BI</li>
+        <li>Report Writing & Presentation</li>
+        <li>Stakeholder Engagement</li>
+        <li>Lecturing, Mentoring & Academic Support</li>
+      </ul>
+    </section>
+
+    <section class="Interests">
+      <h2> 💭Interests</h2>
+
+      <p>
+        I'm deeply inspired by the power of technology to transform societies
+        and empower decision-making. What excites me most is how tech tools—like
+        data analytics, automation, and visualization—can drive meaningful
+        change in public policy and economic development. My professional
+        interests lie in leveraging these technologies to enhance public sector
+        performance, address inequality, and promote inclusive growth. With a
+        strong foundation in economics and a passion for research, I'm committed
+        to bridging the gap between data and impactful policymaking through
+        innovative, tech-driven solutions.
+      </p>
+
+    <section class="education">
+      <h2> 🎓Education</h2>
+      <ul>
+        <li>Master of Commerce in Economics (Awaiting Results), UKZN</li>
+        <li>BCom Honours in Economics, UKZN</li>
+        <li>BA in International Studies, UKZN</li>
+      </ul>
+       <nav class="cv">
+    <a href="https://drive.google.com/file/d/1J5ctuA_bIYx2tkVb3qzX0OTHQbY0ijNa/view?usp=drive_link" download class="btn">Download CV</a>
+</nav>
+    </section>
+   
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Public Debt-Economic Growth Nexus:</strong> Case of South
+          Africa (2021)
+        </li>
+        <li>
+          <strong>Improving Public Sector Performance</strong> (2024,
+          co-authored)
+        </li>
+      </ul>
+    </section>
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="reason">Reason for Contact:</label>
+        <select id="reason" name="reason">
+          <option value="collaboration">Collaboration</option>
+          <option value="opportunity">Job Opportunity</option>
+          <option value="speaking">Speaking Engagement</option>
+          <option value="other">Other</option></select
+        >
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea
+        >
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+    
+
+    <footer>
+      <p>Contact: ✉️ ngotanao@gmail.com | ☎️ 079 742 4510</p>
+    </footer>
+  </body>
+</html>
